@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Homework</title>
+    </head>
+    <body>
+        <h1>Mutiplication</h1>
+        <p>Here is a word problem...</p>
+        <p>Amy has invited 10 friends and they will have 3 chocolates in their bag. How many chocolates will Amy need altogether?</p>
+        <button onclick="multiplication()">Click here for the answer!</button>
+        <p id="result"></p>
+        <img id="image" src="click me.jpg" onclick="image_change()">
+        <script>
+            function  multiplication(){
+                var num1=10;
+                var num2=3;
+                document.getElementById("result").innerHTML=num1*num2;
+            }
+            function image_change(){
+                document.getElementById("image").src="multiplication vocabulary.jpg";
+            }
+        </script>
+    </body>
+</html>
